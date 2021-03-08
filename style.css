@@ -1,0 +1,198 @@
+body{
+    background-image:
+    linear-gradient(rgba(7, 29, 88, 0.856), rgba(11, 18, 78, 0.897)), url("images/background.jpg");
+}
+
+.logo_images{
+ display: flex;
+}
+.logo_text {
+  margin: auto;
+  width: 100%;
+text-align: center;
+font-size: 40px;
+
+}
+.center-text{
+  width: 150px;
+}
+
+#container{
+  
+    width: 1200px;
+    margin: auto;
+    }
+
+    .first_picture{
+        display: flex;
+        float: left;
+        margin: 10px;
+        width: 450px;
+        height: 420px;
+        background-color: grey;
+    
+        }
+    
+    .second_picture{
+    display: flex;
+    float: left;
+    margin: 10px;
+    width: 620px;
+    height: 200px;
+    background-color: grey;
+   
+    }
+    .third_picture{
+        display: flex;
+        float: left;
+        margin: 10px;
+        width: 300px;
+        height: 200px;
+        background-color: grey;
+    
+    }
+    .fourth_picture{
+        display: flex;
+        float: left;
+        margin: 10px;
+        width: 300px;
+        height: 200px;
+        background-color: grey;
+    
+    }
+    #clear{
+      clear: both;
+      }
+
+.image {
+  width: 100%;
+  height: 100%;
+  transition: .7s ease;
+}
+
+.first_picture:hover .image {
+  opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+.second_picture:hover .image {
+  opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+  }
+  .third_picture:hover .image {
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+  }
+  .fourth_picture:hover .image {
+    opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+  }
+  @-webkit-keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes flash {
+    0% {
+      opacity: .4;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+#second_container{
+  width: 1300px;
+  margin: auto;
+  
+  }
+.middle_text{
+  text-align: center;
+font-size: 20px;
+}
+
+h1{
+  margin: 100px;
+  color:white;
+
+}
+.glide__slide{
+  float: left;
+  margin: 15px;
+}
+.picture1{
+  width: 250px;
+  height: 400px;
+}
+.picture2{
+  width: 250px;
+  height: 400px;
+}
+.picture3{
+  width: 250px;
+  height: 400px;
+}
+.picture4{
+  width: 250px;
+  height: 400px;
+}
+
+.picture1:hover
+{
+  transition: .8s ease;
+  opacity: 0.5;
+}
+.picture2:hover
+{
+  transition: .8s ease;
+  opacity: 0.5;
+}
+.picture3:hover
+{
+  transition: .8s ease;
+  opacity: 0.5;
+}
+.picture4:hover
+{
+  transition: .8s ease;
+  opacity: 0.5;
+}
+
+.description{
+  float: left;
+  margin: 15px;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  align-content: center;
+  font-size: 20px;
+  color: white;
+ 
+
+}
+
+.description a {
+  margin: 10px;
+  text-decoration: none;
+  color: yellow;
+  font-size: 25px;
+}
+.description a:hover {
+color: paleturquoise;
+}
+.description p{
+  font-size: 25px;
+  color: greenyellow;
+}
+.description b:hover {
+  color: paleturquoise;
+  }
+
+
+ 
